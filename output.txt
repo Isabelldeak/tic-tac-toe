@@ -1,0 +1,125 @@
+---
+---
+---
+
+Its your turn O
+Enter a row:
+1
+Enter a col:
+1
+
+---
+-O-
+---
+
+---
+-O-
+---
+
+Its your turn X
+Enter a row:
+0
+Enter a col:
+0
+
+X--
+-O-
+---
+
+X--
+-O-
+---
+
+Its your turn O
+Enter a row:
+1
+Enter a col:
+2
+
+X--
+-OO
+---
+
+X--
+-OO
+---
+
+Its your turn X
+Enter a row:
+1
+Enter a col:
+0
+
+X--
+XOO
+---
+
+X--
+XOO
+---
+
+Its your turn O
+Enter a row:
+2
+Enter a col:
+0
+
+X--
+XOO
+O--
+
+X--
+XOO
+O--
+
+Its your turn X
+Enter a row:
+0
+Enter a col:
+2
+
+X-X
+XOO
+O--
+
+X-X
+XOO
+O--
+
+Its your turn O
+Enter a row:
+0
+Enter a col:
+1
+
+XOX
+XOO
+O--
+
+XOX
+XOO
+O--
+
+Its your turn X
+Enter a row:
+2
+Enter a col:
+1
+
+XOX
+XOO
+OX-
+
+XOX
+XOO
+OX-
+
+Its your turn O
+Enter a row:
+2
+Enter a col:
+2
+
+XOX
+XOO
+OXO
