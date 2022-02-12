@@ -3,6 +3,7 @@
 using namespace std;
 
 
+
 string** CreateBoard(){
     string ** board = new string*[3];
     for (int i = 0; i < 3; ++i){
@@ -25,13 +26,21 @@ void DisplayBoard(string **board){
 
   }
 
+
+void CreateBoard(){
+  string board[3][3];
+
 }
 
 
 int main(){
 
+
   string** board = CreateBoard();
 
   DisplayBoard(board);
+
+
+  CreateBoard();
 
 }
