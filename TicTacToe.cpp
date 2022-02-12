@@ -25,12 +25,13 @@ void DisplayBoard(string **board){
 
 
   }
-
-
-void CreateBoard(){
-  string board[3][3];
-
 }
+
+string** PlaceMarker(string** board,int row, int col, string marker) {
+    board[row][col] = marker;
+    return board;
+}
+
 
 
 int main(){
@@ -40,7 +41,8 @@ int main(){
 
   DisplayBoard(board);
 
-
-  CreateBoard();
+  PlaceMarker(board, 1, 1, "X");
+  cout << endl;
+  DisplayBoard(board);
 
 }
