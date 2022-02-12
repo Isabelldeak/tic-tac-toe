@@ -27,11 +27,34 @@ void DisplayBoard(string **board){
 
 }
 
+int * GetPlayerChoice(){
+  int row;
+  int col;
+  cout << "Enter a row: "<< endl;
+  cin >> row;
+  cout << "Enter a col: " << endl;
+  cin >> col;
+
+  int arr[2];
+  arr[0] = row;
+  arr[1] = col;
+
+  return arr;
+
+}
+
+
+
+
 
 int main(){
 
   string** board = CreateBoard();
 
   DisplayBoard(board);
+
+  int * loc = GetPlayerChoice();
+
+
 
 }
