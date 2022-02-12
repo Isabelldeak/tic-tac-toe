@@ -58,15 +58,20 @@ int main(){
 
 
   string** board = CreateBoard();
+  string playerTurn[9] = {"O","X","O","X","O","X","O","X","O"};
+  int * loc;
 
-  DisplayBoard(board);
-
-
-  int * loc = GetPlayerChoice();
-
-  PlaceMarker(board, 1, 1, "X");
-  cout << endl;
-  DisplayBoard(board);
+  for(int i = 0; i < 9; i++ ){
+    DisplayBoard(board);
+    cout << endl;
+    cout << "Its your turn "<<playerTurn[i] << endl;
+    loc = GetPlayerChoice();
+    PlaceMarker(board, loc[0], loc[1], playerTurn[i]);
+    cout << endl;
+    DisplayBoard(board);
+    cout << endl;
+  }
+  
 
 
 }
